@@ -1,15 +1,12 @@
 document.getElementById('login-submit').addEventListener('click', function () {
-    // console.log('Shoitane Lareeee');
+    // get user email
     const emailField = document.getElementById('user-email');
     const userEmail = emailField.value;
-    // console.log(userEmail);
-
+    // get user password
     const passwordField = document.getElementById('user-password');
-    // console.log('Shoitane Lareeee');
     const userPassword = passwordField.value;
-    // console.log(userPassword);
-    if (userEmail == 'jamaishoshur@gmail.com' && userPassword == 'secrete') {
-        // console.log('Valid User');
+    // check email and password
+    if (userEmail == 'jamaishoshur@gmail.com' && userPassword == 'secret') {
         window.location.href = 'banking.html';
     }
-})
+});
